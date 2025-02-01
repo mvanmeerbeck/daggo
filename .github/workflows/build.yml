@@ -32,7 +32,7 @@ jobs:
       # Remplacez `your_script.py` par le nom de votre script Python
 
     - name: Upload EXE
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: my-executable
         path: dist/your_script.exe
